@@ -1,4 +1,5 @@
+import "../App.css";
 function Nav() {
-    return <div>This is nav</div>;
+    return <div className="nav">This is nav</div>;
 }
 export default Nav;
