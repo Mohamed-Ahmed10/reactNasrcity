@@ -5,13 +5,14 @@ import Trainees from "./components/trainees";
 import "bootstrap/dist/css/bootstrap.min.css";
 import BootstrapTest from "./components/bootstrapTest";
 import MyNavbar from "./components/navbar";
+import PropsTest from "./components/propsTest";
 
 function App() {
     var myName = "Mohamed Ahmed";
     var black = "#000";
     return (
         <div className="App">
-            <MyNavbar />
+            {/* <MyNavbar />
             <Nav />
             <input
                 type="text"
@@ -23,7 +24,11 @@ function App() {
             <Courses />
             <Trainees />
             <hr />
-            <BootstrapTest />
+            <BootstrapTest /> */}
+            {/* <Nav /> */}
+            <PropsTest courseName="HTML course" courseDesc="bla bla" />
+            <PropsTest courseName="CSS course" courseDesc="decs 2 " />
+            <PropsTest courseName="React course" courseDesc="desc 3" />
         </div>
     );
 }
